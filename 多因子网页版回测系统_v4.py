@@ -348,6 +348,7 @@ st.markdown("""
     <div class="hero-title"><span>QuantX</span> &nbsp;多因子网页版回测系统</div>
     <div class="hero-subtitle">
         基于市场状态识别与资金流向的动态多策略融合量化系统 &nbsp;&#8226;&nbsp;
+        吴佳浩 23076041
     </div>
     <div class="hero-badges">
         <div class="hero-badge">\U0001f50d 市场状态识别</div>
@@ -978,7 +979,6 @@ st.markdown(f"""
     <b>QuantX</b> &nbsp;多因子网页版回测系统 v4 &nbsp;|&nbsp;
     基于市场状态识别与资金流向的动态多策略融合量化系统 &nbsp;|&nbsp;
     Powered by Streamlit &amp; Plotly &nbsp;|&nbsp;
-    数据来源: {data_source} &nbsp;|&nbsp;
     回测区间: 2022-01-01 ~ 2025-12-31
 </div>
 """, unsafe_allow_html=True)
