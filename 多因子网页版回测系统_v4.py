@@ -377,7 +377,7 @@ with st.sidebar:
     st.markdown("### \U0001f4e1 数据源")
     tushare_token = st.text_input(
         "Tushare Token",
-        value="83d5cccf004ac22f87e7546feae89653875c33ccbc69daaa1a3e644f",
+        value="",
         type="password",
         help="在此输入你的 Tushare Pro API Token",
     )
