@@ -248,7 +248,13 @@ div.stButton > button:hover {
 # ============================================================
 # 工具函数
 # ============================================================
-EXAM_DIR = "d:/Code/量化投资/exam"
+# 本地/云端自适应：优先用脚本所在目录，其次用当前工作目录
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+_LOCAL_EXAM = "d:/Code/量化投资/exam"
+if os.path.isdir(_LOCAL_EXAM):
+    EXAM_DIR = _LOCAL_EXAM
+else:
+    EXAM_DIR = _SCRIPT_DIR  # 云端部署时数据文件和脚本同目录
 CACHE_DIR = os.path.join(EXAM_DIR, "cache")
 os.makedirs(CACHE_DIR, exist_ok=True)
 
